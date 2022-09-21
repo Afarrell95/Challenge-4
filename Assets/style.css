@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header #view-hs{
+    margin-left: 20px;
+    color:blueviolet
+}
+
+ #timer{
+    margin-right: 20px;
+}
+
+.main-container{
+    display:grid;
+    place-content: center;
+    margin-top: 40px;
+    height: 50vh;
+    align-content: space-between;
+}
+
+.option{
+    display: flex;
+    flex-direction:column;
+    width: 100px;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 5px;
+    align-content: space-between;
+}
