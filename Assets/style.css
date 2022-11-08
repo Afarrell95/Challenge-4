@@ -12,9 +12,45 @@ header{
 
 header #view-hs{
     margin-left: 20px;
-    color:blueviolet
+    color:blueviolet; 
 }
 
-header #time-left{
-    margin-right: 20px;
+#hs{
+    color:blueviolet; 
+    text-decoration: none;
+}
+
+ #timer{
+    margin-right: 50px;
+}
+
+.main-container{
+    display:grid;
+    place-content: center;
+    margin-top: 40px;
+    height: 30vh;
+    align-content: space-between;
+}
+
+.option{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    width: 100px;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 5px;
+    align-content: space-evenly;
+    height: 30px;
+    width: fit-content;
+    cursor: pointer;
+}
+
+[data-question="2"],
+[data-question="3"],
+[data-question="4"],
+[data-question="5"],
+[data-question="done"]
+{
+    display: none;
 }
