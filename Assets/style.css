@@ -1,3 +1,4 @@
+/* gonna re-do this all*/
 *{
     margin:0;
     padding:0;
@@ -12,45 +13,27 @@ header{
 
 header #view-hs{
     margin-left: 20px;
-    color:blueviolet; 
-}
-
-#hs{
-    color:blueviolet; 
-    text-decoration: none;
+    color:blueviolet
 }
 
  #timer{
-    margin-right: 50px;
+    margin-right: 20px;
 }
 
 .main-container{
     display:grid;
     place-content: center;
     margin-top: 40px;
-    height: 30vh;
+    height: 50vh;
     align-content: space-between;
 }
 
 .option{
     display: flex;
     flex-direction:column;
-    align-items: center;
     width: 100px;
     color: white;
     background-color: blueviolet;
     border-radius: 5px;
-    align-content: space-evenly;
-    height: 30px;
-    width: fit-content;
-    cursor: pointer;
-}
-
-[data-question="2"],
-[data-question="3"],
-[data-question="4"],
-[data-question="5"],
-[data-question="done"]
-{
-    display: none;
+    align-content: space-between;
 }

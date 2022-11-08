@@ -68,29 +68,3 @@ var questions = [
     answer: "d",
   },
 ];
-// wrongChoice() {
-//   secondsLeft = secondsLeft
-// }
-
-// nextQuestion();
-
-//When I click the 'true' answer, the 'correct' message will show in the h6,
-//then the next question will pop up.
-//if wrong, the "wrong" message will show in the h6 and 3 seconds will come off the timer
-
-function chooseAnswer(event) {
-  var element = event.target;
-  if (element.matches(".option")) {
-    var state = element.getAttribute("data-state");
-
-    if (state === "true") {
-      bottomMessage.textContent = "correct!";
-    } else {
-      bottomMessage.textContent = "wrong!";
-    }
-    // nextQuestion();
-  }
-}
-
-setTime();
-options.addEventListener("click", chooseAnswer());
