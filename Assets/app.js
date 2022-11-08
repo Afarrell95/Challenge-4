@@ -2,6 +2,7 @@ var timeEl = document.querySelector("#timer");
 var mainSection = document.querySelectorAll(".main-container");
 var options = document.querySelectorAll(".option");
 var bottomMessage = document.querySelectorAll(".wright-wrong");
+var quiz = document.querySelector("question");
 
 var secondsLeft = 50;
 
@@ -68,3 +69,11 @@ var questions = [
     answer: "d",
   },
 ];
+
+function play() {
+  setTime();
+  for (i = 0; i < questions.length; i++) {
+    console.log(questions[i].question);
+  }
+}
+play();

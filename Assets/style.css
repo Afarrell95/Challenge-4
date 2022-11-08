@@ -20,7 +20,7 @@ header #view-hs{
     margin-right: 20px;
 }
 
-.main-container{
+.quiz-container{
     display:grid;
     place-content: center;
     margin-top: 40px;
