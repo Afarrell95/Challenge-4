@@ -14,9 +14,6 @@
   
   ## usage
   
-  ## license
-  MIT
-  
   ## contributing
   
   ## tests
