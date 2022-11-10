@@ -1,0 +1,15 @@
+/* gonna re-do this all*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.scoreboard{
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+h2{
+    font-size: 100px;
+}
